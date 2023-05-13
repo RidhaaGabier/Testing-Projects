@@ -1,0 +1,127 @@
+p{
+  font-family:Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin: 0;
+  background-color:orangered;
+}
+
+
+
+.nature{
+  width: 100%;
+
+
+}
+
+
+
+
+.nature-two{
+  width: 100%;
+
+
+}
+
+.shadow-bar{
+  border: none;
+border-radius: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+margin-bottom:20px;
+text-align: left;
+width: 250px;
+cursor: pointer;
+transition: box-shadow 0.15s;
+font-weight: bold;
+
+  
+}
+.shadow-bar:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.shadow-bar:active{
+  opacity: 0.5;
+}
+
+
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
+}
+
+.profile-picture{
+  width: 40px;
+  border-radius: 50px;
+}
+.p-style{
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color:#fff;
+}
+.p-two,.p-three{
+  font-size: 14px;
+  color: #fff;
+}
+.p-two{
+  margin-bottom: 10px;
+}
+.p-three{
+  margin-bottom: 10px;
+}
+
+.ptwo-three{
+font-size: 14px;
+  color: #fff;
+}
+
+
+.profile-two{
+  width: 40px;
+  border-radius:50px ;
+}
+
+
+
+.p-four{
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+
+.p-five,.p-six{
+  font-size: 14px;
+  color: #fff;
+}
+.p-five{
+  margin-bottom: 10px;
+}
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+.round-bar{
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+  border-color: rgba(202, 187, 187, 0.679);
+  color: gray;
+  border-style: solid;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
+
+}
